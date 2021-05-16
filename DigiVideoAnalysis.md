@@ -1,6 +1,7 @@
 ## Digi Raw Video Specs
 
-# Output of "gst-discoverer-1.0 -v digiraw.bin" (digiraw.bin is raw video from goggles)
+# Output of "gst-discoverer-1.0 -v digiraw.bin" 
+# (digiraw.bin is raw video from goggles)
 
 Analyzing file:///home/fpvout/digiraw.bin
 Opening in BLOCKING MODE
