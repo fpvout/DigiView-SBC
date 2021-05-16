@@ -33,6 +33,7 @@ If there is any issue, please check on our [Discord server](https://discord.gg/u
 - If you need to power cycle the air unit, you may need to replug the USB cable in order to re-establish the stream.
 - **You might need to set Autotemp off on your Vista/Air unit to get it to work**.
 - It may work best in 50mbps mode.
+- The alpha release has no method for shuttind own the pi without a mouse and keyboard.
 
 ## Development
 We will add more info here later, but broad strokes are:
