@@ -5,7 +5,7 @@ DigiView SBC is a linux image that allow you to get a Live preview from your DJI
 This is currently an alpha release with minimal features for the Raspberry Pi 4b 8GB (4Gb should work fine, 2Gb may also work)
 
 ## Download
-You can download the **Alpha** Release [here](AddLink)
+You can download the **Alpha** Release [here](https://github.com/fpvout/DigiView-SBC/releases/tag/v0.1-alpha)
 
 ## Instructions
 To get the best results :
