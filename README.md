@@ -2,7 +2,7 @@
 
 DigiView SBC is a linux image that allow you to get a Live preview from your DJI FPV goggles (V1 & V2) on a single board computer.
 
-This is currently an alpha release with minimal features for the Raspberry Pi 4b 8GB (4Gb should work fine, 2Gb may also work)
+This is currently an alpha release with minimal features for the Raspberry Pi. It runs on Pi 2B or better, and can also be modified to run on Pi Zero (expect significant latency on the Pi Zero).
 
 ## Download
 You can download the **Alpha** Release [here](https://github.com/fpvout/DigiView-SBC/releases/tag/v0.1-alpha)
@@ -47,8 +47,9 @@ We will add more info here later, but broad strokes are:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Credits
-- [lavachemist](https://github.com/lavachemist) - Built the Digiview Pi Image
-- [Frank Petrilli](https://github.com/FrankPetrilli) - Created fpv-c
+- [lavachemist](https://github.com/lavachemist) - Digiview Pi Image
+- [Frank Petrilli](https://github.com/FrankPetrilli) - fpv-c
+- [Sergey Serov aka Gol](http://cosmostreamer.com/) - Video Decoder
 - [Joonas](https://fpv.wtf/) - Found the secret packet - [Donate](https://www.buymeacoffee.com/fpv.wtf)
 - [D3VL](https://d3vl.com) - Who is orchestrating all that stuff - [Donate](https://www.buymeacoffee.com/d3vl)
 
