@@ -1,0 +1,1 @@
+This folder contains files related to the analysis of "raw" video pulled from FPV goggles. Reference this when creating Gstreamer or FFMPEG pipelines.

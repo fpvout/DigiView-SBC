@@ -1,0 +1,1 @@
+Place the contents of this folder into /etc/udev/rules.d
