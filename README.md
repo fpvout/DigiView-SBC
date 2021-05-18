@@ -9,15 +9,28 @@ You can download the **Alpha** Release [here](https://github.com/fpvout/DigiView
 
 ## Instructions
 To get the best results :
-- Power on our Raspberry Pi 4 and wait for it to boot fully.
-- You must have a monitor of some kind connected to the SBC before connecting the goggles, or the stream will not start.
+- Power on our Raspberry Pi and wait for it to boot fully.
+- You must have a monitor of some kind connected to the SBC before booting the Pi.
 - Power on your googles.
 - Power your drone.
 - Wait for the link to be established.
-- Plug the USB cable into a USB 3.0 port your Raspberry Pi (one of the blue USB ports).
+- Plug the USB cable into a USB port your Raspberry Pi.
 - Streaming is triggered when the Goggles are connected to the Pi via USB, so you should see video shortly after plugging in.
 - If video latency is poor or image quality is bad, try replugging the USB.
 - It is strongly recommended that you plug/unplug the Pi end of the cable: you would rather wear out the connector on the Pi than your goggles!
+
+## Pi Zero Instructions
+In order for the Pi Zero to boot, you must change the amount of RAM dedicated to the GPU:
+- Connect the SD card to your PC.
+
+In the Boot partition, open config.txt and change this:
+
+``` gpu_mem=512 ```
+
+To this:
+
+``` gpu_mem=384 ```
+
 
 ## Advanced User Instructions
 - If you want to log into the pi, you can connect a mouse and keyboard. Right-click on the desktop and open the terminal emulator.
@@ -29,16 +42,15 @@ To get the best results :
 If there is any issue, please check on our [Discord server](https://discord.gg/uGYMNByeTH), some people might help you there.
 
 ## Known Issues
-- Do not plug into the Pi until after you see video in your goggles.
+- Do not plug into the Pi until after video is showing in your goggles.
 - If you need to power cycle the air unit, you may need to replug the USB cable in order to re-establish the stream.
 - **You might need to set Autotemp off on your Vista/Air unit to get it to work**.
 - It may work best in 50mbps mode.
-- The alpha release has no method for shutting own the pi without a mouse and keyboard.
 
 ## Development
 We will add more info here later, but broad strokes are:
 - The Pi image is based on Raspbian Lite.
-- The core components that make DigiView SBC are fpv-c, and Gstreamer.
+- The core components that make DigiView SBC are fpv-c, Gstreamer and Hello_Video (Pi version only).
 - Auto-start on USB is accomplished via a UDEV rule that triggers the GoggleConnect service, which starts a bash script that initiates the stream.
 - A tutorial for building your own version from scratch is planned for a future date.
 - Jetson Nano 2gb, and RockPi 4 images are also in development.
