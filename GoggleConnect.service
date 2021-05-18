@@ -1,0 +1,11 @@
+[Unit] 
+Description=GoggleConnect 
+StopWhenUnneeded=true 
+
+[Service] 
+Type=Oneshot 
+User=fpvout 
+ExecStart=/home/fpvout/Scripts/fpvout-start.sh 
+
+[Install] 
+WantedBy=multi-user.target
