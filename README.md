@@ -68,4 +68,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to check theses guys out ! And feel free to donate ;)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/mit/)
