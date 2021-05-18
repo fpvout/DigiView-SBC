@@ -39,7 +39,7 @@ To this:
 - SSH is enabled by default, but you will need to add a wpa supplicant file to the boot partition to connect to Wi-Fi.
 - There is no desktop environment on the image - this is intended to turn your SBC into an appliance that requires no user input for normal operation.
 
-If there is any issue, please check on our [Discord server](https://discord.gg/uGYMNByeTH), some people might help you there.
+If there is any issue, please check on our [Discord server](https://discord.gg/uGYMNByeTH), some people might help you there. You can also consult the [DigiView Wiki.](https://github.com/fpvout/fpvout.com/wiki)
 
 ## Known Issues
 - Do not plug into the Pi until after video is showing in your goggles.
