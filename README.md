@@ -59,7 +59,7 @@ We will add more info here later, but broad strokes are:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Credits
-- [lavachemist](https://github.com/lavachemist) - Digiview Pi Image
+- [lavachemist](https://github.com/lavachemist) - Digiview SBC Images
 - [Frank Petrilli](https://github.com/FrankPetrilli) - fpv-c
 - [Sergey Serov aka Gol](http://cosmostreamer.com/) - Video Decoder
 - [Joonas](https://fpv.wtf/) - Found the secret packet - [Donate](https://www.buymeacoffee.com/fpv.wtf)
