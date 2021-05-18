@@ -69,3 +69,5 @@ Please make sure to check theses guys out ! And feel free to donate ;)
 
 ## License
 [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/mit/)
+
+“Raspberry Pi is a trademark of the Raspberry Pi Foundation”.
