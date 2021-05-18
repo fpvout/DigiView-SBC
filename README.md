@@ -5,7 +5,7 @@ DigiView SBC is a linux image that allow you to get a Live preview from your DJI
 This is currently an alpha release with minimal features for the Raspberry Pi. It runs on Pi 2B or better, and can also be modified to run on Pi Zero (expect significant latency on the Pi Zero).
 
 ## Download
-You can download the **Alpha** Release [here](https://github.com/fpvout/DigiView-SBC/releases/tag/v0.1-alpha)
+You can download the **Alpha** Release [here](https://github.com/fpvout/DigiView-SBC/releases/tag/v0.2-alpha)
 
 ## Instructions
 To get the best results :
