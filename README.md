@@ -1,4 +1,4 @@
-![Any Screen, Any Time.](docs/digiview.png)
+![Any Screen, Any Time.](Docs/digiview.png)
 
 # DigiView SBC
 
