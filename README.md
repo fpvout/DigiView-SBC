@@ -1,3 +1,5 @@
+![Any Screen, Any Time.](docs/digiview.png)
+
 # DigiView SBC
 
 DigiView SBC is a linux image that allow you to get a Live preview from your DJI FPV goggles (V1 & V2) on a single board computer.
