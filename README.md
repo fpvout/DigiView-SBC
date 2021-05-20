@@ -1,4 +1,4 @@
-![Any Screen, Any Time.](docs/digiview.png)
+![Any Screen, Any Time.](Docs/digiview.png)
 
 # DigiView SBC
 
@@ -48,6 +48,8 @@ If there is any issue, please check on our [Discord server](https://discord.gg/u
 - If you need to power cycle the air unit, you may need to replug the USB cable in order to re-establish the stream.
 - **You might need to set Autotemp off on your Vista/Air unit to get it to work**.
 - It may work best in 50mbps mode.
+- Some small monitors have squeezed/stretched video on Pi 3B+.
+- Need to disable hibernate/sleep so the display doesn't shutdown during flight.
 
 ## Development
 We will add more info here later, but broad strokes are:
