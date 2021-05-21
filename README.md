@@ -66,6 +66,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 - [lavachemist](https://github.com/lavachemist) - Digiview SBC Images
 - [Frank Petrilli](https://github.com/FrankPetrilli) - fpv-c
 - [Sergey Serov aka Gol](http://cosmostreamer.com/) - Video Decoder
+- [M. Tops](https://www.youtube.com/channel/UC9ccaKS3o1go5s2UhiYKWBw) - User Interface
 - [Joonas](https://fpv.wtf/) - Found the secret packet - [Donate](https://www.buymeacoffee.com/fpv.wtf)
 - [D3VL](https://d3vl.com) - Who is orchestrating all that stuff - [Donate](https://www.buymeacoffee.com/d3vl)
 
