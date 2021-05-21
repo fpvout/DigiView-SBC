@@ -1,0 +1,153 @@
+body {
+	margin: 0 auto;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	color: white;
+	height: 100vh;
+	width: 100vw;
+}
+
+.container {
+	position:relative;
+	height: 100%;
+	width: 100%;
+	background-image: url('../wallpaper.png');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-position: center;
+}
+
+.box-power {
+	position: absolute;
+	background: red;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	right: 10px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 50px;
+	border-radius: 10px;
+}
+
+.box-power:active {
+	background-color:orange;
+}
+
+.box-menu {
+	position: absolute;
+	background: #555;
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 10px;  
+	text-align:center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 50px;
+	border-radius: 10px;
+}
+.box-menu:active {
+	background-color:#888;
+}
+
+.menu {
+	position: absolute;
+	background: rgba(128, 128, 128, 0.6);;
+	top: 10px;
+	left: 120px;  
+	font-size: 50px;
+	line-height: 80px;
+	border-radius: 10px;
+	padding : 10px 30px 10px 10px;
+}
+
+.box-terminal {
+	position: absolute;
+	background: #555;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	left: 10px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 50px;
+	border-radius: 10px;
+}
+.box-terminal:active {
+	background-color:#888;
+}
+
+.box-screen {
+	position: absolute;
+	background: #555;
+	width: 100px;
+	height: 100px;
+	bottom: 10px;
+	left: 120px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 50px;
+	border-radius: 10px;
+}
+.box-screen:active {
+	background-color:#888;
+}
+
+.box-battery {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:10px;
+	right:10px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 100px;
+	font-size: 50px
+}
+.icon {
+	background-color: #555;
+	color: #fff;
+	display: inline-block;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin: 10px
+}
+.icon:active {
+	background-color: #55f;
+}
+
+.box-clock {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	right: 120px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.clock_time {
+	font: 25px Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	text-shadow: 0px 2px 5px #000;
+	width: 100px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.clock_date {
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #00adee;
+	text-shadow: 0px 2px 3px #000;
+	width: 100px;
+	text-align: center;
+}
