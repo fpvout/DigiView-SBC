@@ -49,7 +49,7 @@ If there is any issue, please check on our [Discord server](https://discord.gg/u
 - Clone this repository to your SBC: git clone https://github.com/fpvout/DigiView-SBC.git
 - Navigate to the DigiView-SBC folder: cd DigiView-SBC
 - Make the fpvoutkiosk.sh executable: sudo chmod +x fpvoutkiosk.sh
-- Run the fpvoutkiosk.sh script: ./fpvoutkiosk.sh
+- Run the fpvoutkiosk.sh script: sudo ./fpvoutkiosk.sh
 - The script will take a while, be patient. It will update your image and install all of the dependencies.
 - After completion, you will have a user called fpvout, with a password of fpvout.
 - You will need to configure auto login for the fpvout user, if desired.
