@@ -11,10 +11,10 @@ chmod +x newuser.sh
 apt-get update
 
 # Then we install the dependencies:
-apt-get install -y -q git lightdm libusb-1.0 openbox obconf chromium python3 menu obmenu conky parcellite feh rox-filer \
+apt-get install -y -q git lightdm libusb-1.0 openbox obconf chromium-browser python3 menu obmenu conky parcellite feh rox-filer \
 tint2 xfce4-panel libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good \
 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools \
-gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-pulseaudio
+gstreamer1.0-x gstreamer1.0-alsa
 
 # Now we set up the UDEV Rules
 touch "/etc/udev/rules.d/5-FPVGoggle.rules"
