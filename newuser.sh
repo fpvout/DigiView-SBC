@@ -33,7 +33,7 @@ mv autostart /home/.config/openbox/autostart
 chmod +x /home/.config/openbox/autostart
 
 # set up X to autostart
-touch home/fpvout/.bash_profile
+touch /home/fpvout/.bash_profile
 echo '[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor' >> home/fpvout/.bash_profile
 
 exit 0
