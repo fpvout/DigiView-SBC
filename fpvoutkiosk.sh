@@ -9,7 +9,6 @@ chmod +x newuser.sh
 
 # First, we make sure the system is up to date:
 apt-get update
-apt-get upgrade -y
 
 # Then we install the dependencies:
 apt-get install -y git lightdm libusb-1.0 openbox obconf chromium python3 menu obmenu conky parcellite feh rox-filer \
