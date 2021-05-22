@@ -15,7 +15,7 @@ print(oui)
 if oui == "dc:a6:32" or oui == "B8:27:EB":
    print("This is a Raspberry Pi")
    shutil.move('Pi/fpvout-start.sh', '/home/fpvout/Scripts/fpvout-start.sh')
-   subprocess.call("hello_video.sh") # install modified hello_video
+   subprocess.call("/home/pi/DigiView-SBC/hello_video.sh") # install modified hello_video
 elif oui == "48:b0:2d":
    print("This is an Nvidia Jetson")
    shutil.move('Jetson/fpvout-start.sh', '/home/fpvout/Scripts/fpvout-start.sh')
