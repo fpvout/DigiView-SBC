@@ -1,1 +1,0 @@
-SUBSYSTEM=="usb", ATTRS{idVendor}=="2ca3", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}+="GoggleConnect.service"
