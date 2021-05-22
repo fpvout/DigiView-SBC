@@ -29,7 +29,7 @@ sh -c "echo 'fpvout ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers"
 # add the openbox directory and the autostart file
 mkdir /home/fpvout/.config/
 mkdir /home/fpvout/.config/openbox
-mv autostart /home/.config/openbox/autostart
+mv autostart /home/fpvout/.config/openbox/autostart
 chmod +x /home/.config/openbox/autostart
 
 # set up X to autostart
