@@ -30,7 +30,7 @@ sh -c "echo 'fpvout ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers"
 mkdir /home/fpvout/.config/
 mkdir /home/fpvout/.config/openbox
 mv autostart /home/fpvout/.config/openbox/autostart
-chmod +x /home/.config/openbox/autostart
+chmod +x /home/fpvout/.config/openbox/autostart
 
 # Configure Bash Profile
 touch /home/fpvout/.bash_profile
