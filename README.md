@@ -7,7 +7,7 @@ DigiView SBC is a linux image that allow you to get a Live preview from your DJI
 This is currently an alpha release with minimal features for the Raspberry Pi. It runs on Pi 2B or better, and can also be modified to run on Pi Zero (expect significant latency on the Pi Zero).
 
 ## Download
-You can download the **Alpha** Release [here](https://github.com/fpvout/DigiView-SBC/releases/latest)
+You can download the **Alpha** Release of the Pi Image [here](https://github.com/fpvout/DigiView-SBC/releases/latest) or you can build your own version by following the image building tutorial below.
 
 ## Instructions
 To get the best results :
@@ -42,6 +42,18 @@ To this:
 - There is no desktop environment on the image - this is intended to turn your SBC into an appliance that requires no user input for normal operation.
 
 If there is any issue, please check on our [Discord server](https://discord.gg/uGYMNByeTH), some people might help you there. You can also consult the [DigiView Wiki.](https://github.com/fpvout/fpvout.com/wiki)
+
+## Image Builder Tutorial
+
+- Install a minimal Debian based linux image with no Desktop Environment on your SBC.
+- Clone this repository to your SBC: git clone https://github.com/fpvout/DigiView-SBC.git
+- Navigate to the DigiView-SBC folder: cd DigiView-SBC
+- Make the fpvoutkiosk.sh executable: sudo chmod +x fpvoutkiosk.sh
+- Run the fpvoutkiosk.sh script: ./fpvoutkiosk.sh
+- The script will take a while, be patient. It will update your image and install all of the dependencies.
+- After completion, you will have a user called fpvout, with a password of fpvout.
+- You will need to configure auto login for the fpvout user, if desired.
+- Video should start streaming if you are logged in and have followed the "Instructions" section above.
 
 ## Known Issues
 - Do not plug into the Pi until after video is showing in your goggles.
