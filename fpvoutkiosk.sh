@@ -41,8 +41,7 @@ git clone https://github.com/fpvout/fpv-c.git
 cd fpv-c
 make
 
-# Next, we move our openbox modified autostart file to the etc directory
-sudo mv autostart /etc/xdg/openbox/autostart
+# set up environmental variable for openbox
 echo 'export KIOSK_URL=/var/www/html/index.html' >> /etc/xdg/openbox/environment
 
 exit 0
