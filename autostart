@@ -1,0 +1,32 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/arm-linux-gnueabihf/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/arm-linux-gnueabihf/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
+
+xset -dpms			# turn off display power management system
+xset s noblank		# turn off screen blanking
+xset s off			# turn off screen saver
+
+# Remove exit errors from the config files that could trigger a warning
+  
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
+  
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
+
+# Run Chromium in kiosk mode
+chromium-browser  --noerrdialogs --disable-infobars --kiosk $KIOSK_URL
+
+--check-for-update-interval=31536000
