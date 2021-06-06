@@ -11,4 +11,5 @@ sudo chmod +x /usr/bin/install-wifi
 sudo install-wifi -h
 
 # Connect your WLAN adapter and run the installer script, it should identify your adapter and install the drivers
-sudo install-wifi```
+sudo install-wifi
+```
