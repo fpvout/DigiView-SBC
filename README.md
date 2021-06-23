@@ -43,6 +43,9 @@ To this:
 
 If there is any issue, please check on our [Discord server](https://discord.gg/uGYMNByeTH), some people might help you there. You can also consult the [DigiView Wiki.](https://github.com/fpvout/fpvout.com/wiki)
 
+## Experimental
+- The WiFi module can be used to pipe the USB from the goggles to a WiFi client. This can allow devices that are unsupported by libUSB (iOS) to act as a screen. There is currently no service setup up for this. See fpvout-stream-listen.py for more details.
+
 ## Known Issues
 - Do not plug into the Pi until after video is showing in your goggles.
 - If you need to power cycle the air unit, you may need to replug the USB cable in order to re-establish the stream.
